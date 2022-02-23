@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soli's Portfolio</title>
+    <meta name="description" content="Portfolio for Soli Choi" />
+    <meta name="author" content="Soli" />
+
+
+
+    <link rel="icon" type="image/png" href="Images/icon.png" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+
+    <!-- NavBar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <a href="#"><img src="Images/icon2.png" /></a>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__icon active" data-link="#home">"Home"</li>
+        <li class="navbar__menu__icon" data-link="#about">About</li>
+        <li class="navbar__menu__icon"data-link="#skills">Skills</li>
+        <li class="navbar__menu__icon" data-link="#work">Work</li>
+        <!-- <li class="navbar__menu__icon" data-link="#testimonials">Testimonials</li> -->
+        <li class="navbar__menu__icon"data-link="#contact">Contact</li>
+      </ul>
+
+    <!--  Toggle Button-->
+    <button class="navbar__toggle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+        </nav>
+
+
+    <!-- Home -->
+    <section id="home">
+
+      <div class="home__container">
+
+      <h1 class="home__title">
+        Welcome,<br />This is Soli's personal website
+      </h1>
+      <h2 class="home__description">
+        Fullstack Software Engineer with Strong Design Background
+      </h2>
+      <button class="home__button" >Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class = "section">
+      <h1>About Me</h1>
+      <!--페이지에 공통으로 쓰이는 것은 따로 클래스 지정 할 필요는 없음-->
+      <p>
+        Experience with all phases of the product development. Passion for
+          learning new technologies. Capable of working within a team environment
+          and independently. Ability to plan and time schedule, work under strict
+          time pressure and adapt quickly when needed.
+      </p>
+      <div class="about__major">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <div class="major__title">Web Development</div>
+          <div class="major__description">JavaScript, HTML, CSS, React,
+          </br>Redux, Express, Node.js, Express.js</div>
+        </div>
+         <div class="major">
+          <div class="major__icon">
+           <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="major__title">Database</div>
+          <div class="major__description">Sequelize, Postgres, Firebase</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <div class="major__title">Mobile Development</div>
+          <div class="major__description">React Native, Expo</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+           <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="major__title">Other Tech</div>
+          <div class="major__description">Photoshop, Illustrator, MS Office</div>
+        </div>
+      </div>
+
+    </section>
+
+
+<!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+
+        <p>
+
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+
+             <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript, HTML, CSS, React,Redux, Express, Node.js, Express.js</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+              <div class="skill">
+              <div class="skill__description">
+                <span>Sequelize, Postgres, Firebase</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+              <div class="skill">
+              <div class="skill__description">
+                <span>React Native, Expo</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Product Development Skill</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Project Management Skill</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Excel, Word, Powerpoint</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Illustrator, Photoshop</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li>1. Visual Studio Code</li>
+                <li>2. Hand Drawing</li>
+                <li>3. Watercolor Painting</li>
+                <li>4. Marbling (EBRU)</li>
+                <li>5. Screen Printing</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Work -->
+    <section id="work" class = "section">
+    <h1>My Works</h1>
+    <h3>"Projects"</h3>
+    <div class="work__categories">
+      <button class="work__btn selected" data-filter='*'>
+        All<span class="category__counts">12</span>
+      </button>
+      <button class="work__btn" data-filter='Front-end'>
+        Web & App Development<span class="category__counts" >8</span>
+      </button>
+      <button class="work__btn" data-filter='Adobe'>
+        Adobe<span class="category__counts" '>3</span>
+      </button>
+      <button class="work__btn" data-filter='Microsoft'>
+        Microsoft<span class="category__counts">1</span>
+      </button>
+    </div>
+
+    <div class="work__projects">
+      <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/leashed.jpeg" class = "project__img"alt="Leashed"/>
+        <div class="project__description">
+          <h3>Mobile App Dog Tinder</h3>
+          <span>Tinder-style app that helps you meet dog friends and set up playdates via real-time chat.
+</span>
+        </div>
+      </a>
+      <a href="https://rent-a-superhero.herokuapp.com/" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/superhero.jpeg" class = "project__img"alt="Superhero E-commerce"/>
+        <div class="project__description">
+          <h3>E-Commerce Website</h3>
+          <span>A mock e-commerce website that allows users to rent a superhero using a reservation system</span>
+        </div>
+      </a>
+       <a href="Weather/index.html" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/weather.jpg" class = "project__img"alt="Youtube"/>
+        <div class="project__description">
+          <h3>Weather Website</h3>
+          <span>Creating responsive webpage using API, Vanilla JS, HTML, CSS</span>
+        </div>
+      </a>
+      <a href="Youtube/index.html" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/youtube.jpeg" class = "project__img"alt="Youtube"/>
+        <div class="project__description">
+          <h3>Youtube Site</h3>
+          <span>Clone codiding with HTML and CSS</span>
+        </div>
+      </a>
+
+      <a href="Food Recipe/index.html" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/Food.jpg" class = "project__img"alt="Youtube"/>
+        <div class="project__description">
+          <h3>Finding Correct Recipe</h3>
+          <span>Finding correct recipe with your ingredients, using Vanilla JS, HTML, CSS, API</span>
+        </div>
+      </a>
+
+
+<a href="Paint/index.html" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/Paint.jpg" class = "project__img"alt="Youtube"/>
+        <div class="project__description">
+          <h3>Creating Paint Board</h3>
+          <span>Creating Paing Board using Vanilla JS , HTML, CSS</span>
+        </div>
+      </a>
+
+
+      <a href="Tetris/index.html" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/Tetris Image.jpg" class = "project__img"alt="Youtube"/>
+        <div class="project__description">
+          <h3>Tetris Game</h3>
+          <span>Creating basic Tetris Game using Vanilla JS, HTML, CSS</span>
+        </div>
+      </a>
+
+
+
+      <a href="#" class="project" target="blank" data-type='Front-end'>
+        <img src="Images/Webpage.jpeg" class = "project__img"alt="Webpage"/>
+        <div class="project__description">
+          <h3>Personal Site</h3>
+          <span>Building up personal webpage</span>
+        </div>
+      </a>
+      <a href="Images/Adobe.jpg" class="project"  target="blank" data-type='Adobe'>
+        <img src="Images/Adobe.jpg" alt="Adobe" class = "project__img"/>
+        <div class="project__description">
+          <h3>Adobe Print Project</h3>
+          <span
+            >Creating Patterns <br \ />Visualizing the products with
+            images</span
+          >
+        </div>
+      </a>
+            <a href="Images/Pattern.png" class="project"  target="blank" data-type='Adobe'>
+        <img src="Images/Pattern.png" alt="Adobe" class = "project__img"/>
+        <div class="project__description">
+          <h3>Adobe Print Project</h3>
+          <span
+            >Creating Patterns <br \ />Visualizing the products with
+            images</span
+          >
+        </div>
+      </a>
+            <a href="Images/Adobe collection.png" class="project"  target="blank" data-type='Adobe'>
+        <img src="Images/Adobe collection.png" alt="Adobe" class = "project__img"/>
+        <div class="project__description">
+          <h3>Adobe Print Project</h3>
+          <span
+            >Creating Patterns <br \ />Visualizing the products with
+            images</span
+          >
+        </div>
+      </a>
+      <a href="Microsoft/Skincare.pdf" class="project"  target="blank" data-type='Microsoft'>
+        <img src="Images/microsoft.jpeg" alt="Youtube" class = "project__img"/>
+        <div class="project__description">
+          <h3>Presentation</h3>
+          <span>Creating unique and informative presentation</span>
+        </div>
+      </a>
+    </div>
+    </div>
+
+    </section>
+      <!-- Testimonials -->
+    <section id="testimonials" class="section">
+   <div class="section__container">
+    <h1>Testimonials</h1>
+    <h3>See what they say about me</h3>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img
+          src="Images/krista.png"
+          alt="People"
+          class="testimonial__avatar"
+        />
+        <div class="testimonial__speech-bubble">
+          <p>
+           Soli is accomplished at handling multiple challenges at once. I worked with Soli on our final project for the Grace Hopper Program at Fullstack Academy where we created Leashed, a Tinder-style mobile app for dogs that helps you find new furry friends for your dog. Not only was Soli taking on all the same technical challenges as the rest of the team, but she was also doing it from a different time zone. Soli took on the challenge of integrating the image picker for the app and created the components that allowed us to view user information. She also has a knack for design and influenced the style and appearance of our app. I highly recommend Soli and know she would make a great asset to any team.
+          </p>
+          <p class="name"><a href="">Krista Naso</a> / Fullstack Academy "Team Cake"</p>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial__speech-bubble">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            fuga libero nulla eveniet aperiam laborum, quis provident
+            quibusdam officiis reprehenderit, placeat neque perspiciatis vero
+            explicabo tempora, dignissimos accusantium inventore ducimus!
+          </p>
+          <p class="name"><a href="">Ellie</a> / Samsung</p>
+        </div>
+         <img
+        src="Images/person.jpeg"
+        alt="People"
+        class="testimonial__avatar"
+      />
+
+      </div>
+    </div>
+   </div>
+    </section>
+    <!-- contacts -->
+    <section id="contact">
+      <h1 class ="contact__title">Let's Talk</h1>
+      <h3 class ="contact__email">solichoi09@gmail.com</h3>
+      <div class="contact__icon">
+      <a href="https://www.linkedin.com/in/soli-choi-230a9516a/" target ="blank" class="fab fa-linkedin"></a>
+      <a href="https://www.linkedin.com/in/soli-choi-230a9516a/" target ="blank" class="fab fa-github"></a>
+    </div>
+    </section>
+
+
+    <!-- Arrow UP -->
+    <button class="arrow__btn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>

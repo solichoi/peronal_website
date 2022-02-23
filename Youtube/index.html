@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soli Video Website</title>
+
+    <!-- 폰트 연동! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Caveat&family=Merienda&family=Merriweather+Sans&family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+
+    <!-- css style 연동! -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 아이콘 연동! -->
+
+    <script src="https://kit.fontawesome.com/3547a5d8ff.js" crossorigin="anonymous"></script>
+    
+    <!-- JS 연동시킬떄 항상 defer 을 적기!!! -->
+    <script src="main.js" defer></script>
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+       </div>
+        
+        
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/soli.mov" >
+            </video>
+    </section>
+
+    <!-- info and upnextsectioncombined -->
+   <div class="infoAndupnextsection">
+    <!-- Video Info -->
+    <section class="info">
+        <ul class="hashtag">
+            <li>#Breeze</li>
+            <li>#Daily</li>
+            <li>#Nature</li>
+        </ul>
+        <div class="titleAndbtn">
+            <!-- 타이틀 clamp 하는 법 -->
+            <span class="title clamp">This is Soli's First Video Website all built from the scratch. This will show you how to build up a website by using HTML,CSS,JS. Try as many times as possible to make it yours. </span>
+            <!-- 클릭이라는 자바 액션을 줘야하기때문에 클래스에 추가 -->
+            <button class="morebtn clicked"><i class="fas fa-caret-down"></i></button>
+            </div>
+            <span class="view">1M views 1 week a go</span>
+   
+            <ul class="action">
+            <li><button><i class="active fas fa-thumbs-up"></i><span >1k</span></button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+            <li><button><i class="fas fa-flag"></i><span>Report</span></button></li>
+                </ul>
+        <div class="authorinfo">
+            <div class="metadata">
+                <img src="Image/soli.JPG" alt="">
+                <div class="channelinfo">
+                    <span class="authorname">Soli.Choi</span>
+                    <span class="subscriber">1M subscribers</span>
+                 </div>
+            </div>
+            <button class="subscribebtn">subscribe</button>
+        </div> 
+        </section>
+
+    <!-- Up Next -->
+    <section class="upnextsection">
+        <span class="maintitle">Up Next</span>
+            <ul>
+        <li class="nextvideo">
+            <div class="img"><img src="Image/1.JPG" alt=""></div>
+                <div class="description">
+                    <span class = "title">First Photomatic Together with my BB :3</span>
+                    <span class="name">soli.choi</span>
+                    <span class="views">237K</span>
+                </div>
+                    <button class="morebtn"><i class="fas fa-ellipsis-v"></i></i></button>  
+                </li>
+         
+         <li class="nextvideo">
+            <div class="img"><img src="Image/2.JPG" alt=""></div>
+            <div class="description">
+                <span class = "title">First Photomatic Together with my BB :3</span>
+                <span class="name">soli.choi</span>
+                <span class="views">237K</span>
+               </div>
+               <button class="morebtn"><i class="fas fa-ellipsis-v"></i></i></button>
+
+         </li>
+         <li class="nextvideo">
+            <div class="img"><img src="Image/3.JPG" alt=""></div>
+            <div class="description">
+                <span class ="title">First Photomatic Together with my BB :3</span>
+                <span class="name">soli.choi</span>
+                <span class="views">237K</span>
+               </div>
+               <button class="morebtn"><i class="fas fa-ellipsis-v"></i></i></button>
+         </li>
+     </ul>
+    </section>
+   </div>
+   
+   
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+@import "resetcss.css";
+
+body {
+  background-color: beige;
+  /* background: url(texture-transparent.png) center/cover; */
+  font-family: "Noto Sans Display", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.canvas {
+  width: 700px;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.controls .controls__btns {
+  margin-bottom: 30px;
+}
+
+.controls__btns button {
+  transform: scale(0.9);
+  all: unset;
+  background-color: white;
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgba(50, 50, 93, 0.11);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.controls__btns button:active {
+  transform: scale(0.9);
+}
+
+.controls .controls__colors {
+  display: flex;
+}
+
+.controls__colors .controls__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls .controls__range {
+  margin-bottom: 20px;
+}
